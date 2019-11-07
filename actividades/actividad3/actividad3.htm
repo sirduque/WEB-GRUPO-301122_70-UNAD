@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraMemo-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>ACTIVIDAD3</title>
+<link type="text/css" href="actividad3_resources/css/ardoraMemo.css" rel="stylesheet" />
+<link rel="stylesheet" href="CSS/estilos0.css">
+<link rel="stylesheet" href="CSS/cabecera.css">
+<link rel="stylesheet" href="CSS/barra.css">
+<style type="text/css">
+
+* {
+    margin: 20;
+    padding: 4 ;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+}
+
+
+
+footer {
+    text-align: center;
+    max-width: 90%;
+    background-color: #F0B420;<!-COLOR AMARILLO PIE DE PAGINA -->
+
+}
+
+header,.principal, .secundaria, article, aside, footer,nav {
+    /*text-align: center;*/
+    max-width: 50%;
+    margin: 0.5em auto;
+
+}
+
+
+article{
+    background-color: #F47920;<!- CAJA ARTICLE  D0NDE VA EL TEXTO DEL ARTICULO-->
+
+}
+aside{
+    background-color:#43C7F4;<!- CAJA ASIDE D0NDE VA TWITTER Y CONTADOR DE VISITAS-->
+
+
+}
+</style>
+
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/ardoraMemoCFG.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/ardoraMemo.js"></script>
+<script language="javascript" type="text/javascript" src="actividad3_resources/js/ardoraTab.js"></script>
+</head>
+
+<div width="100">
+<nav style="max-height: 3%; margin: 8em auto; background-color: #F47920 ">
+
+  <ul class="menu">
+
+          <li><a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/index.html">Inicio</a></li>
+
+      <li class="desplegable">
+          <a class="btnDesplegable" href="" > Lecturas</a>
+           <div class="contenidoDesplegable">
+             <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/PDF/Dise%C3%B1o%20Web.pdf">Diseño Web</a>
+             <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/PDF/Instalacion%20de%20GitHub.pdf">Instalacion de GitHub</a>
+             <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/PDF/HTML5.pdf">HTML5</a>
+             <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/PDF/Dise%C3%B1o%20Web.pdf">CSS3</a>
+            </div>
+      </li>
+
+      <li class="desplegable">
+              <a class="btnDesplegable" href="">Actividades</a>
+              <div class="contenidoDesplegable">
+                <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/actividades/actividad1/actividad.htm">Rompe Cabezas</a>
+                <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/actividades/actividad2/actividad_2.htm">Armando Palabras</a>
+                <a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/actividades/actividad3/actividad3.htm">Busca Pareja</a>
+            </div>
+        </li>
+
+        <li><a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/multimedia.html">Mutimedia</a></li>
+        <li><a href="file:///C:/Users/bityuee/Documents/GitHub/WEB-GRUPO-301122_70-UNAD/QUIENES%20SOMOS.htm">Quienes Somos</a></li>
+         </ul>
+   </ul>
+  <br>
+
+</nav>
+
+
+
+
+
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<div id="ardoraEnu"><br><br><SPAN style="font-size:20px;color:#0080C0"><b>BUSCANDO  PAREJAS DISEÑO WEB</b></SPAN></div>
+  <div id="ardoraAct">
+      <div id="ima11" class="imaCell">
+        <div id="ima11_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima12" class="imaCell">
+        <div id="ima12_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima13" class="imaCell">
+        <div id="ima13_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima14" class="imaCell">
+        <div id="ima14_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima21" class="imaCell">
+        <div id="ima21_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima22" class="imaCell">
+        <div id="ima22_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima23" class="imaCell">
+        <div id="ima23_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima24" class="imaCell">
+        <div id="ima24_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima31" class="imaCell">
+        <div id="ima31_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima32" class="imaCell">
+        <div id="ima32_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima33" class="imaCell">
+        <div id="ima33_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima34" class="imaCell">
+        <div id="ima34_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima41" class="imaCell">
+        <div id="ima41_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima42" class="imaCell">
+        <div id="ima42_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima43" class="imaCell">
+        <div id="ima43_img" class="imaCell_img"></div>
+      </div>
+      <div id="ima44" class="imaCell">
+        <div id="ima44_img" class="imaCell_img"></div>
+      </div>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+
+</body>
+
+
+
+</html>
