@@ -6,47 +6,57 @@ para otros usos contacte con el autor-->
 <html lang="es">
 <head><meta charset="utf-8" /><title>Actividad2</title>
 <link type="text/css" href="actividad_2_resources/css/ardoraOrdena.css" rel="stylesheet" />
-<link rel="stylesheet" href="CSS/estilos0.css">
-<link rel="stylesheet" href="CSS/cabecera.css">
-<link rel="stylesheet" href="CSS/barra.css">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/cabecera.css">
+<link rel="stylesheet" href="css/barra.css">
 <style type="text/css">
 
-* {
-    margin: 20;
-    padding: 4 ;
-    /* -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; */
-}
 
 
 
-footer {
-    text-align: center;
-    max-width: 90%;
-    background-color: #F0B420;<!-COLOR AMARILLO PIE DE PAGINA -->
 
-}
-
-header,.principal, .secundaria, article, aside, footer,nav {
-    /*text-align: center;*/
-    max-width: 50%;
-    margin: 0.5em auto;
-
-}
+    * {
+        margin: 50;
+        padding: 4 ;
+        /* -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; */
+    }
 
 
-article{
-    background-color: #F47920;<!- CAJA ARTICLE  D0NDE VA EL TEXTO DEL ARTICULO-->
+    body {
+        background: #005883;<!-COLOR AZUL INSTITUCIONAL -->
 
-}
-aside{
-    background-color:#43C7F4;<!- CAJA ASIDE D0NDE VA TWITTER Y CONTADOR DE VISITAS-->
+    }
 
 
-}
+    footer {
+        text-align: center;
+        max-width: 90%;
+        background-color: #F0B420;<!-COLOR AMARILLO PIE DE PAGINA -->
+
+    }
+
+    header,.principal, .secundaria, article, aside, footer,nav {
+        /*text-align: center;*/
+        max-width: 90%;
+        margin: 0.5em auto;
+    }
+    .principal{
+        background-color: #B3B3B3;<!- CAJA PRINCIPAL css interno -->
+
+    }
+
+    article{
+        background-color: #F47920;<!- CAJA ARTICLE  D0NDE VA EL TEXTO DEL ARTICULO-->
+
+    }
+    aside{
+        background-color:#43C7F4;<!- CAJA ASIDE D0NDE VA TWITTER Y CONTADOR DE VISITAS-->
+
+
+    }
 </style>
-
 
 <script language="javascript" type="text/javascript" src="actividad_2_resources/js/jquery.js"></script>
 <script language="javascript" type="text/javascript" src="actividad_2_resources/js/jquery-ui.min.js"></script>
@@ -57,10 +67,33 @@ aside{
 <script language="javascript" type="text/javascript" src="actividad_2_resources/js/ardoraTab.js"></script>
 </head>
 
-<div width="100">
-<nav style="max-height: 3%; margin: 8em auto; background-color: #F47920 ">
 
-  <ul class="menu">
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+
+  <header class="cabecera"> <!--Contenedor .cabecera .container linea de archivo cabecera.css -->
+  <div class="container">
+    <h1  align="left">DISEÑO DE SITIOS WEB GRUPO 301122_70 UNAD</h1><br>
+  <div class="logo" >
+
+      <img src="img/logo.jpg" height="50">
+
+  </div>
+
+  <a href="https://www.unad.edu.co/"><img src="img/logounad.png " align="left"   width="325" height="250" align=""
+    alt="MDN"></a>
+
+    <img src="img/EjeCamino130913.jpg" align="center" width="340" alt="">
+    <img src="img/Migratoria200913.jpg" align="center" width="320" alt="">
+    <img src="img/hqdefault.jpg" align="center" width="320" alt="">
+      <!--archivo de imagen para el encabezado--></header>
+
+
+
+<!--sentencia para quitar espacio entre lineas se u sa tambien en la linea 68-->
+
+<nav style>
+
+<ul class="menu">
 
     <li><a href="index.html">Inicio</a></li>
 
@@ -89,10 +122,6 @@ aside{
 <br>
 </nav>
 
-
-
-
-<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
 <div id="ardoraMain">
 <div id="ardoraEnu"><br><br><SPAN style="font-size:20px;color:#FFFFFF"><b>ORDENA PALABRAS DANDO CLIK A LAS LETRA</b></SPAN></div>
   <div id="ardoraAct">
